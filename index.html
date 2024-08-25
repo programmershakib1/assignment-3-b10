@@ -126,28 +126,30 @@
     <main class="bg-main_bg">
     <!-- about section -->
      <section>
-        <img class="pt-8 pl-36 hidden lg:block" src="images/vector.png" alt="">
          <div class="container w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
             <!-- content -->
              <div class="h-[550px] lg:h-[550px] md:h-[400px] text-center lg:text-left">
-                 <button class="bg-white mt-8 lg:mt-2 mb-8 px-5 font-bold rounded-3xl">
-                 <h2><i class="fa-solid fa-arrow-right"></i> About Us</h2>
-                 </button>
+                 <div class="relative lg:mt-24">
+                    <img class="absolute -top-12 -left-12 hidden lg:block" src="images/vector.png" alt="">
+                     <button class="bg-white mt-8 lg:mt-2 mb-8 px-5 font-bold rounded-3xl">
+                     <h2><i class="fa-solid fa-arrow-right"></i> About Us</h2>
+                     </button>
+                 </div>
                  <h2 class="text-4xl font-black">We design thoughtful, <br> liveable spaces</h2>
                  <p class="text-secondary font-medium my-8">A lot of glass is used in this room, which is the main attraction of this room. This room also <br> gets a lot of sunlight.</p>
                  <div class="space-y-5 lg:space-y-5 md:space-y-0 grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 gap-0 lg:gap-0 md:gap-5">
-                    <div class="flex items-center gap-4 bg-white rounded-2xl py-4 pl-3">
+                    <div class="flex lg:items-center gap-4 bg-white rounded-2xl py-4 pl-3">
                         <div>
-                           <img src="images/commercial.png" alt="">
+                           <img class="w-12 h-12 lg:w-full lg:h-full" src="images/commercial.png" alt="">
                         </div>
                         <div class="space-y-3 text-left">
                            <h2 class="font-bold text-xl">Commercial</h2>
                            <p class="text-tertiary font-medium">Everything used in this room is very <br> modern and beautiful.</p>
                         </div>
                     </div>
-                    <div class="flex items-center gap-4 bg-white rounded-2xl py-4 pl-3">
+                    <div class="flex lg:items-center gap-4 bg-white rounded-2xl py-4 pl-3">
                         <div>
-                           <img src="images/residential.png" alt="">
+                           <img class="w-12 h-12 lg:w-full lg:h-full" src="images/residential.png" alt="">
                         </div>
                         <div class="space-y-3 text-left">
                            <h2 class="font-bold text-xl">Residential</h2>
@@ -157,7 +159,7 @@
                  </div>
              </div>
             <!-- img -->
-             <div class="lg:h-[550px] md:h-96 rounded-2xl mt-14 lg:mt-0 md:mt-0">
+             <div class="lg:h-[550px] md:h-96 rounded-2xl mt-14 lg:mt-16 md:mt-0">
                  <img class="h-64 w-full lg:h-full md:h-full" src="images/rectangle.png" alt="">
              </div>
          </div>
@@ -242,7 +244,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-10 gap-5 md:grid-cols-2 mt-10">
                <div class="lg:col-span-7 md:col-span-2 flex flex-col lg:flex-row md:flex-row gap-6 border-solid border-inherit border-2 rounded-2xl p-5 lg:h-60 bg-white">
                   <div>
-                     <img class="w-full h-56 lg:h-full" src="images/img1.png" alt="">
+                     <img class="w-full h-56 lg:w-80 lg:h-full" src="images/img1.png" alt="">
                   </div>
                   <div class="flex flex-col justify-center space-y-7">
                     <h4 class="text-2xl font-bold text-secondary">Commercial</h4>
@@ -259,6 +261,7 @@
                </div>
             </div>
          <!-- for medium device responsiveness -->
+         <!-- start -->
             <div class="hidden lg:hidden md:block my-8">
                <div class="grid grid-cols-2 gap-5">
                   <div class="border-solid border-inherit border-2 rounded-2xl p-5 bg-white">
@@ -269,17 +272,20 @@
                   </div>
                </div>
             </div>
+         <!-- end -->
             <div class="grid grid-cols-1 lg:grid-cols-9 gap-5 mt-6">
                <div class="lg:col-span-2 border-solid border-inherit border-2 rounded-2xl p-5 lg:h-60 bg-white hidden lg:block">
                   <img class="w-full h-56 lg:h-full" src="images/img3.png" alt="">
                </div>
             <!-- mobile device exchange image -->
+            <!-- start -->
                <div class="lg:hidden md:hidden border-solid border-inherit border-2 rounded-2xl p-5 bg-white">
                   <img class="w-full h-56" src="images/img5.png" alt="">
                </div>
+            <!-- end -->
                <div class="lg:col-span-5 flex flex-col lg:flex-row md:flex-row gap-6 border-solid border-inherit border-2 rounded-2xl p-5 lg:h-60 bg-white">
                   <div>
-                     <img class="w-full h-56 lg:h-full" src="images/img4.png" alt="">
+                     <img class="w-full h-56 lg:w-80 lg:h-full" src="images/img4.png" alt="">
                   </div>
                   <div class="flex flex-col justify-center space-y-7">
                     <h4 class="text-2xl font-bold text-secondary">Commercial</h4>
@@ -292,14 +298,17 @@
                   </div>
                </div>
             <!-- mobile device Extra image -->
+            <!-- start -->
                <div class="border-solid border-inherit border-2 rounded-2xl p-5 bg-white lg:hidden md:hidden">
                   <img class="w-full h-56" src="images/img3.png" alt="">
                </div>
+            <!-- end -->
                <div class="lg:col-span-2 border-solid border-inherit border-2 rounded-2xl p-5 lg:h-60 mb-10 lg:mb-20 bg-white lg:block md:hidden">
                   <img class="w-full h-56 lg:h-full" src="images/img5.png" alt="">
                </div>
             </div>
             <!-- for medium device responsiveness -->
+            <!-- start -->
             <div class="hidden lg:hidden md:block my-8">
                <div class="grid grid-cols-2 gap-5">
                    <div class="border-solid border-inherit border-2 rounded-2xl p-5 bg-white">
@@ -310,6 +319,7 @@
                    </div>
                </div>
             </div>
+            <!-- end -->
          </div>
      </section>
     <!-- news section -->
@@ -394,7 +404,7 @@
           </div>
         </div>
      </section>
-    <!-- challenge section -->
+    <!-- challenge new section -->
      <section>
          <div class="container w-11/12 mx-auto">
              <!-- content -->
@@ -406,13 +416,13 @@
                 <p class="text-secondary font-medium">We have been working with your trust for a long time. After a few days we come up with some new designs. <br> Below are some new designs. All are standard and modern. Select if you like.</p>
             </div>
             <!-- card -->
-             <div class="mt-24">
+             <div class="mt-10 lg:mt-24">
                 <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
                   <!-- 1 -->
                   <div>
                   <!-- img -->
-                    <div class="h-80">
-                       <img class="w-full h-full rounded-lg" src="images/challenge1.png" alt="">
+                    <div class="h-80 bg-white p-4 rounded-xl">
+                       <img class="w-full h-full rounded-xl" src="images/challenge1.png" alt="">
                     </div>
                     <!-- text -->
                     <div class="badge badge-secondary bg-black border-none">NEW</div>
@@ -423,8 +433,8 @@
                  <!-- 2 -->
                   <div>
                     <!-- img -->
-                     <div class="h-80">
-                        <img class="w-full h-full rounded-lg" src="images/challenge2.jpg" alt="">
+                     <div class="h-80 bg-white p-4 rounded-xl">
+                        <img class="w-full h-full rounded-xl" src="images/challenge2.jpg" alt="">
                      </div>
                      <!-- text -->
                       <div>
@@ -437,8 +447,8 @@
                 <!-- 3 -->
                   <div class="lg:block md:hidden mb-8">
                     <!-- img -->
-                     <div class="h-80">
-                        <img class="w-full h-full rounded-lg" src="images/challenge3.jpg" alt="">
+                     <div class="h-80 bg-white p-4 rounded-xl">
+                        <img class="w-full h-full rounded-xl" src="images/challenge3.jpg" alt="">
                      </div>
                      <!-- text -->
                       <div>
@@ -452,8 +462,8 @@
                   <!-- 4 -->
                   <div class="lg:block md:hidden">
                   <!-- img -->
-                    <div class="h-80">
-                       <img class="w-full h-full rounded-lg" src="images/challenge4.webp" alt="">
+                    <div class="h-80 bg-white p-4 rounded-xl">
+                       <img class="w-full h-full rounded-xl" src="images/challenge4.jpg" alt="">
                     </div>
                     <!-- text -->
                     <div>
@@ -465,8 +475,8 @@
                  <!-- 5 -->
                   <div>
                     <!-- img -->
-                     <div class="h-80">
-                        <img class="w-full h-full rounded-lg" src="images/challenge5.jpg" alt="">
+                     <div class="h-80 bg-white p-4 rounded-xl">
+                        <img class="w-full h-full rounded-xl" src="images/challenge5.jpg" alt="">
                      </div>
                      <!-- text -->
                       <div>
@@ -479,8 +489,8 @@
                 <!-- 6 -->
                   <div class="mb-8">
                     <!-- img -->
-                     <div class="h-80">
-                        <img class="w-full h-full rounded-lg" src="images/challenge6.jpeg" alt="">
+                     <div class="h-80 bg-white p-4 rounded-xl">
+                        <img class="w-full h-full rounded-xl" src="images/challenge6.jpg" alt="">
                      </div>
                      <!-- text -->
                       <div>
@@ -490,17 +500,71 @@
                       </div>
                   </div>
                 </div>
-
-
              </div>
          </div>
      </section>
+    <!-- challenge meet section -->
+     <section class="bg-white">
+        <div class="container w-11/12 mx-auto">
+           <div>
+             <div class="text-center space-y-8">
+               <button class="bg-quaternary font-semibold py-2 px-5 rounded-3xl mt-10 lg:mt-24">
+               <h2 class="font-bold"><i class="fa-solid fa-arrow-right"></i> Our Info</h2>
+               </button>
+               <h2 class="text-4xl font-extrabold">Meet Our Team</h2>
+               <p class="text-secondary font-medium">Meet our team. Below is the information of some of our expert team members. Contact for any requirement.</p>
+            </div>
+           </div>
+           <div class="mt-5 lg:mt-20 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5 p-5 mb-20">
+              <div class="flex flex-col items-center">
+                 <div class="h-80">
+                    <img class="w-full h-full rounded-xl" src="images/team1.png" alt="">
+                 </div>
+                 <div>
+                    <p class="text-2xl font-bold text-secondary my-5">Hanry</p>
+                 </div>
+              </div>
+              <div class="flex flex-col items-center">
+                 <div class="h-80">
+                    <img class="w-full h-full rounded-xl" src="images/team2.png" alt="">
+                 </div>
+                 <div>
+                    <p class="text-2xl font-bold text-secondary my-5">Cark</p>
+                 </div>
+              </div>
+              <div class="flex flex-col items-center">
+                 <div class="h-80">
+                    <img class="w-full h-full rounded-xl" src="images/team3.png" alt="">
+                 </div>
+                 <div>
+                    <p class="text-2xl font-bold text-secondary my-5">Poul</p>
+                 </div>
+              </div>
+              <div class="flex flex-col items-center">
+                 <div class="h-80">
+                    <img class="w-full h-full rounded-xl" src="images/team4.png" alt="">
+                 </div>
+                 <div>
+                    <p class="text-2xl font-bold text-secondary my-5">Tony</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+    <!-- contact -->
+     <div class="container w-11/12 mx-auto mb-20">
+        <div class="flex justify-center lg:flex-row gap-10">
+           <img src="images/facebook.png" alt="">
+           <img src="images/instagram.png" alt="">
+           <img src="images/twitter.png" alt="">
+        </div>
+     </div>
     <!-- white space -->
      <div class="bg-white h-2">
         
      </div>
     <!-- project section -->
-     <section class="bg-project_bg bg-cover bg-no-repeat bg-center">
+     <section class="bg-project_bg bg-cover bg-no-repeat bg-center bg-opacity-70">
          <div class="container w-11/12 mx-auto">
       <!-- content -->
           <div class="text-center space-y-8">
